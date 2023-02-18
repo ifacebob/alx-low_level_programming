@@ -1,3 +1,4 @@
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -13,17 +14,17 @@ int main(void)
 {
 	int n;
 
-	int num1;
+	int l_number;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	num1 = (n % 10);
+	l_number = (n % 10);
 	/* your code goes there */
-	if (num1 > 5)
-	printf("Last digit of %d is %d and is greater than 5\n", n, num1);
-	else if (num1 == 0)
-		printf("Last digit of %d is %d and is 0\n", n, num1);
-	else if (num1 < 6)
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, num1);
+	if (l_number > 5)
+	printf("Last digit of %d is %d and is greater than 5\n", n, l_number);
+	else if (l_number == 0)
+		printf("Last digit of %d is %d and is 0\n", n, l_number);
+	else if (l_number < 6)
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l_number);
 	return (0);
 
