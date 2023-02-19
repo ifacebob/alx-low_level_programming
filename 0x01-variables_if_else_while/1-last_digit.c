@@ -7,7 +7,8 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n, lt_digit;
+	int n;
+	int lt_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
