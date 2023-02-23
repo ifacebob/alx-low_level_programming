@@ -1,11 +1,7 @@
-0-putchar.c CODE
-
-
 #include "main.h"
     /**
      * main - print _putchar
-     * is written by mbah
-     * Return: 0
+     * is written by mbah                          * Return: 0
      */
 
 
@@ -20,6 +16,5 @@
     _putchar('a');
     _putchar('r');
     _putchar('\n');
-    return (0);
+                                                  return (0);
     }
-
